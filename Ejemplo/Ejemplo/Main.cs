@@ -13,7 +13,9 @@ namespace Ejemplo
 
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			MainClass clase = new MainClass();
+			int x = clase.suma();
+			Console.WriteLine (x);
 		}
 	}
 }
